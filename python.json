@@ -1,0 +1,152 @@
+[
+  {
+      "question": "In Python, which keyword is used to define a function?",
+      "answer": "def",
+      "difficulty": "easy"
+  },
+  {
+      "question": "What type of language is python?",
+      "answer": "interpreted",
+      "difficulty": "easy"
+  },
+  {
+      "question": "What function is used to get the length of a list?",
+      "answer": "len",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which method is used to add an item to a list?",
+      "answer": "append",
+      "difficulty": "easy"
+  },
+  {
+      "question": "In Python, which keyword is used to import modules?",
+      "answer": "import",
+      "difficulty": "easy"
+  },
+  {
+      "question": "What function is used to output to the console?",
+      "answer": "print",
+      "difficulty": "easy"
+  },
+  {
+      "question": "What is the default return value returned by a function that doesn't return anything?",
+      "answer": "none",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which keyword is used to handle exceptions?",
+      "answer": "try",
+      "difficulty": "easy"
+  },
+  {
+      "question": "What keyword is used to exit a loop?",
+      "answer": "break",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which keyword is used to delete an object in Python?",
+      "answer": "del",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which data structure is used to store key-value pairs in Python?",
+      "answer": "dictionary",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which built-in function returns the smallest item?",
+      "answer": "min",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which built-in function returns the largest item?",
+      "answer": "max",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which keyword is used to create a generator?",
+      "answer": "yield",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which function is used to iterate through two or more iterables in parallel?",
+      "answer": "zip",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which function is used to sort items in a list?",
+      "answer": "sorted",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which method is used to remove all elements from a list?",
+      "answer": "clear",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which method is used to find the index of an item in a list?",
+      "answer": "index",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which method is used to remove the last item from a list?",
+      "answer": "pop",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which keyword is used to call a method from the parent class?",
+      "answer": "super",
+      "difficulty": "medium"
+  },
+  {
+      "question": "In Python, which data type is immutable?",
+      "answer": "tuple",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which keyword is used to create an anonymous function?",
+      "answer": "lambda",
+      "difficulty": "hard"
+  },
+  {
+      "question": "What is the name of the standard Python string encoding?",
+      "answer": "utf-8",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which module in Python is used for regular expressions?",
+      "answer": "re",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which keyword is used to declare a block of code that belongs to a class?",
+      "answer": "class",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which keyword is used to check if an object is an instance of a class or a subclass thereof?",
+      "answer": "isinstance",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which function is used to convert a value to a string in Python?",
+      "answer": "str",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which function is used to create a complex number in Python?",
+      "answer": "complex",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which module in Python provides a method to parse JSON?",
+      "answer": "json",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which module in Python is used for mathematical functions?",
+      "answer": "math",
+      "difficulty": "hard"
+  }
+]

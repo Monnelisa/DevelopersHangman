@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Game - Developer Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game_header">
+            <h1 id="language_title">Language: </h1>
+            <h2 id="difficulty_title">Difficulty: </h2>
+        </div>
+
+        <div id="game_area">
+            <p id="question_display">The game will start soon...</p>
+            <input type="text" id="user_input" placeholder="Enter your guess">
+            <button id="submit_answer">Submit Answer</button>
+        </div>
+    </div>
+
+    <script>
+        // Get language and difficulty from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const language = urlParams.get('language');
+        const difficulty = urlParams.get('difficulty');
+
+        // Update the page with the selected language and difficulty
+        document.getElementById('language_title').textContent = `Language: ${language}`;
+        document.getElementById('difficulty_title').textContent = `Difficulty: ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}`;
+
+        // Start game logic (auto start in the easy phase)
+        function startGame() {
+            document.getElementById('question_display').textContent = `Starting the game with ${language} questions at ${difficulty} difficulty...`;
+            // You can add your game logic here
+        }
+
+        // Auto-start the game
+        startGame();
+    </script>
+</body>

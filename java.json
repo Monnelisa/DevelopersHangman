@@ -1,0 +1,152 @@
+[
+  {
+      "question": "Which keyword is used to define a class in Java?",
+      "answer": "class",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which method is used to output text to the console in Java?",
+      "answer": "println",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which keyword is used to create an object in Java?",
+      "answer": "new",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which keyword is used to inherit a class in Java?",
+      "answer": "extends",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which keyword is used to define a method in Java?",
+      "answer": "void",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which keyword is used to handle exceptions in Java?",
+      "answer": "try",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which method is used to start a thread in Java?",
+      "answer": "start",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which keyword is used to define a constant in Java?",
+      "answer": "final",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which keyword is used to exit a loop in Java?",
+      "answer": "break",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which keyword is used to return a value from a method in Java?",
+      "answer": "return",
+      "difficulty": "easy"
+  },
+  {
+      "question": "Which collection class allows you to grow or shrink its size and provides indexed access to its elements in Java?",
+      "answer": "ArrayList",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which method is used to find the length of a string in Java?",
+      "answer": "length",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which method is used to convert a string to lowercase in Java?",
+      "answer": "toLowerCase",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which keyword is used to implement an interface in Java?",
+      "answer": "implements",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which keyword is used to refer to the current object in Java?",
+      "answer": "this",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which keyword is used to refer to the parent class in Java?",
+      "answer": "super",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which method is used to compare two strings in Java?",
+      "answer": "equals",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which keyword is used to create a package in Java?",
+      "answer": "package",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which keyword is used to import a package in Java?",
+      "answer": "import",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which class is the superclass of all classes in Java?",
+      "answer": "Object",
+      "difficulty": "medium"
+  },
+  {
+      "question": "Which keyword is used to declare an abstract class in Java?",
+      "answer": "abstract",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which keyword is used to create an enumerated type in Java?",
+      "answer": "enum",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which class is used for handling date and time in Java?",
+      "answer": "Date",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which class provides methods for manipulating arrays in Java?",
+      "answer": "Arrays",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which class provides methods for working with collections in Java?",
+      "answer": "Collections",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which class is used for input and output operations in Java?",
+      "answer": "Scanner",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which keyword is used to synchronize methods in Java?",
+      "answer": "synchronized",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which keyword is used to create a native method in Java?",
+      "answer": "native",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which keyword is used to declare a static block in Java?",
+      "answer": "static",
+      "difficulty": "hard"
+  },
+  {
+      "question": "Which keyword is used to prevent a class from being inherited in Java?",
+      "answer": "final",
+      "difficulty": "hard"
+  }
+]
