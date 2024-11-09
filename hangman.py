@@ -1,6 +1,5 @@
 import random
 import json
-import speech_recognition as sr
 
 
 

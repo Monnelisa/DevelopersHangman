@@ -1,17 +1,50 @@
-# Problems - Hangman Conditionals
+# Developers Hangman Game
 
-* Modify `hangman.py` to solve the problem as stated in [_TODO_ ref to content's problem description].
-* Use the `short_words.txt` file for the list of words to select from.
-* You can run the program using the instructions in *To Run* below.
-* You can test technical correctness by running the unit tests as in the section *To Test* below.
+Welcome to the Developers Hangman Game! This is an interactive word-guessing game designed for developers and programming enthusiasts to test and expand their knowledge of programming languages and terminology.
 
-### To Run
+## Table of Contents
 
-* `python3 hangman.py`
-* follow the input prompts to play the game
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Gameplay](#gameplay)
+- [Levels](#levels)
+- [Technologies Used](#technologies-used)
 
-### To Test
+## Features
 
-* To run all the unittests: `python3 -m unittest tests/test_main.py`
-* To run a specific step's unittest, e.g step *1*: `python3 -m unittest tests.test_main.MyTestCase.test_step1`
-* _Note_: at the minimum, these (*unedited*) tests must succeed before you may submit the solution for review.
+- Interactive gameplay with programming language-related words.
+- Words have missing letters for players to guess.
+- Progressive difficulty levels from Easy to Hard.
+- Minimum score of 80% required to advance to the next level.
+- User-friendly interface (currently terminal-based).
+
+## Installation
+
+To get started with the Developers Hangman Game, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Monnelisa/DevelopersHangman.git
+
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd DevelopersHangman
+
+3. Open the project in your preferred code editor (e.g., Visual Studio Code).
+
+## Usage
+
+Currently, the game is terminal-based. To play, run the following command:
+
+   ```python hangman.py
+
+- The game starts at the Easy level.
+- Players must guess letters to reveal the missing letters in each word.
+- Track incorrect guesses and solve the word before running out of attempts.
+- Achieve a minimum score of 80% to unlock the next level
+
+
+
