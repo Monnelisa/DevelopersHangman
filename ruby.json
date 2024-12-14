@@ -1,0 +1,153 @@
+[
+    {
+        "question": "What keyword is used to define a class in Ruby?",
+        "answer": "class",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What symbol is used to denote a comment in Ruby?",
+        "answer": "#",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What method is used to output text to the console in Ruby?",
+        "answer": "puts",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the file extension for Ruby files?",
+        "answer": "rb",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What keyword is used to define a method in Ruby?",
+        "answer": "def",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the method to get the length of an array in Ruby?",
+        "answer": "length",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What keyword is used to create a loop in Ruby?",
+        "answer": "loop",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the method to convert a string to uppercase in Ruby?",
+        "answer": "upcase",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What symbol is used to define a hash in Ruby?",
+        "answer": "{}",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What method is used to add an element to an array in Ruby?",
+        "answer": "push",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What method is used to remove the last element from an array in Ruby?",
+        "answer": "pop",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What keyword is used to define a constant in Ruby?",
+        "answer": "CONSTANT",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What method is used to iterate over each element in an array in Ruby?",
+        "answer": "each",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the method to check if a string includes a substring in Ruby?",
+        "answer": "include?",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What keyword is used to handle exceptions in Ruby?",
+        "answer": "rescue",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What method is used to convert a string to a float in Ruby?",
+        "answer": "to_f",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the method to sort an array in Ruby?",
+        "answer": "sort",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What keyword is used to define a block of code that can be passed to methods in Ruby?",
+        "answer": "lambda",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What method is used to find the index of an element in an array in Ruby?",
+        "answer": "index",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the method to convert an array to a string in Ruby?",
+        "answer": "join",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What method is used to define a class method in Ruby?",
+        "answer": "self",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the term for a block of code that can be passed as an argument to a method in Ruby?",
+        "answer": "proc",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What method is used to create a new thread in Ruby?",
+        "answer": "Thread.new",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the method used to define a setter method in Ruby?",
+        "answer": "attr_writer",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the term for a class that cannot be instantiated in Ruby?",
+        "answer": "abstract",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What method is used to convert a symbol to a string in Ruby?",
+        "answer": "to_s",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the method used to create a new instance variable in Ruby?",
+        "answer": "initialize",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What keyword is used to include a module in a class in Ruby?",
+        "answer": "include",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the method used to define a private method in Ruby?",
+        "answer": "private",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the term for a method that is called on an object but does not exist in Ruby?",
+        "answer": "method_missing",
+        "difficulty": "hard"
+    }
+         
+]

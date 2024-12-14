@@ -1,0 +1,153 @@
+[
+    {
+      "question": "Which keyword is used to define a class in C#?",
+      "answer": "class",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to define a method in C#?",
+      "answer": "void",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which symbol is used to denote a namespace in C#?",
+      "answer": "namespace",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to create an instance of a class in C#?",
+      "answer": "new",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method is used to print output in C#?",
+      "answer": "WriteLine",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to declare a constant in C#?",
+      "answer": "const",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to specify an integer type in C#?",
+      "answer": "int",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to specify a floating-point type in C#?",
+      "answer": "float",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to define a conditional statement in C#?",
+      "answer": "if",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to define an enumeration in C#?",
+      "answer": "enum",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "answer": "catch",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword is used to inherit a class in C#?",
+      "answer": "extends",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which method is used to read input from the console in C#?",
+      "answer": "ReadLine",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword is used to declare an interface in C#?",
+      "answer": "interface",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword is used to exit a loop or switch statement in C#?",
+      "answer": "break",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword is used to continue the next iteration of a loop in C#?",
+      "answer": "continue",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which method is used to convert a string to uppercase in C#?",
+      "answer": "ToUpper",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword is used to define an abstract class in C#?",
+      "answer": "abstract",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword is used to override a method in C#?",
+      "answer": "override",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword is used to specify a double-precision floating-point type in C#?",
+      "answer": "double",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword is used to define a delegate in C#?",
+      "answer": "delegate",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which keyword is used to declare a property in C#?",
+      "answer": "property",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which keyword is used to implement an interface in C#?",
+      "answer": "implements",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which keyword is used to declare a lambda expression in C#?",
+      "answer": "lambda",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which keyword is used to define a structure in C#?",
+      "answer": "struct",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which keyword is used to define a static method in C#?",
+      "answer": "static",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which method is used to sort an array in C#?",
+      "answer": "Sort",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which keyword is used to specify a nullable type in C#?",
+      "answer": "nullable",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which keyword is used to define a read-only property in C#?",
+      "answer": "readonly",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which keyword is used to convert types explicitly in C#?",
+      "answer": "cast",
+      "difficulty": "hard"
+    }
+  ]
+  

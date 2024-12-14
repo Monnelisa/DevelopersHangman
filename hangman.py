@@ -47,13 +47,30 @@ def show_answer(correct_word, revealed_indices):
 
 def ask_file_name():
     while True:
-        choice = input("What programming language would you like to play? (1 for Python, 2 for Java): ")
+        print("What programming language would you like to play?")
+        print("1. Python")
+        print("2. Java")
+        print("3. JavaScript")
+        print("4. HTML")
+        print("5. C#")
+        print("6. Ruby")
+        
+        choice = input("Enter the number corresponding to your choice: ")
+        
         if choice == '1':
             return "python.json"
         elif choice == '2':
             return "java.json"
+        elif choice == '3':
+            return "javascript.json"
+        elif choice == '4':
+            return "html.json"
+        elif choice == '5':
+            return "csharp.json"
+        elif choice == '6':
+            return "ruby.json"
         else:
-            print("Invalid choice. Please enter 1 for Python or 2 for Java.")
+            print("Invalid choice. Please enter a number from 1 to 6 corresponding to the programming language.")
 
 def play_level(questions, difficulty):
     print(f"\nStarting {difficulty.capitalize()} Level (10 Questions)")
@@ -77,7 +94,7 @@ def play_level(questions, difficulty):
                 break
             
             user_input = get_user_input()
-            if len(user_input) != 1 or not user_input.isalpha():
+            if len(user_input) != 1:
                 print("Please enter a single letter.")
                 continue
 
