@@ -1,0 +1,153 @@
+[
+    {
+      "question": "Which keyword is used to define a method in Ruby?",
+      "answer": "def",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the file extension for Ruby files?",
+      "answer": ".rb",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to create an instance of a class in Ruby?",
+      "answer": "new",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to define a class in Ruby?",
+      "answer": "class",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method is used to print output in Ruby?",
+      "answer": "puts",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the method used to convert an object to a string in Ruby?",
+      "answer": "to_s",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to include a module in a class in Ruby?",
+      "answer": "include",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which symbol is used to denote an instance variable in Ruby?",
+      "answer": "@",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to end a block of code in Ruby?",
+      "answer": "end",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method is used to reverse a string in Ruby?",
+      "answer": "reverse",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What keyword is used to make methods private in Ruby?",
+      "answer": "private",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which method is used to remove the last element from an array in Ruby?",
+      "answer": "pop",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the keyword for a true value in Ruby?",
+      "answer": "true",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What method can be used to check if an array includes a specific element?",
+      "answer": "include?",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which method can be used to concatenate strings in Ruby?",
+      "answer": "concat",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which method is used to convert a string to lowercase in Ruby?",
+      "answer": "downcase",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the superclass of all classes in Ruby?",
+      "answer": "Object",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which method can be used to sort an array in Ruby?",
+      "answer": "sort",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What keyword is used for exception handling in Ruby?",
+      "answer": "rescue",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What method can be used to get the first element of an array in Ruby?",
+      "answer": "first",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword is used to create a constant in Ruby?",
+      "answer": "const",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the method used to create a new array in Ruby?",
+      "answer": "Array",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which method is used to find the length of a string in Ruby?",
+      "answer": "length",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which method is used to iterate over each element in an array in Ruby?",
+      "answer": "each",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which method is used to delete a key-value pair from a hash in Ruby?",
+      "answer": "delete",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What method is used to check if a key exists in a hash in Ruby?",
+      "answer": "has_key?",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the method used to remove whitespace from the ends of a string in Ruby?",
+      "answer": "strip",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which method is used to replace all occurrences of a pattern in a string in Ruby?",
+      "answer": "gsub",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the method used to split a string into an array of substrings in Ruby?",
+      "answer": "split",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which method is used to capitalize the first letter of a string in Ruby?",
+      "answer": "capitalize",
+      "difficulty": "hard"
+    }
+  ]
+  
