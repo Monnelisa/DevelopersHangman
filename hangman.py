@@ -1,6 +1,72 @@
 import random
 import json
 
+HANGMAN_PICS = [
+    """
+     +---+
+     |   |
+         |
+         |
+         |
+         |
+    =========
+    """,
+    """
+     +---+
+     |   |
+     O   |
+         |
+         |
+         |
+    =========
+    """,
+    """
+     +---+
+     |   |
+     O   |
+     |   |
+         |
+         |
+    =========
+    """,
+    """
+     +---+
+     |   |
+     O   |
+    /|   |
+         |
+         |
+    =========
+    """,
+    """
+     +---+
+     |   |
+     O   |
+    /|\\  |
+         |
+         |
+    =========
+    """,
+    """
+     +---+
+     |   |
+     O   |
+    /|\\  |
+    /    |
+         |
+    =========
+    """,
+    """
+     +---+
+     |   |
+     O   |
+    /|\\  |
+    / \\  |
+         |
+    =========
+    """
+]
+
 def read_json_file(file_name):
     with open(file_name, 'r') as file:
         return json.load(file)
@@ -19,7 +85,7 @@ def select_random_letters_from(word):
     # Determine number of letters to hide based on word length
     if word_length <= 3:
         num_missing = 1
-    elif word_length > 6:
+    elif word_length >= 6:
         num_missing = 3
     else:
         num_missing = 2
@@ -83,9 +149,11 @@ def play_level(questions, difficulty):
         
         answer = question['answer'].lower()
         
-        # Hide letters based on word length rules
-        revealed_indices = set(range(len(answer))) - set(select_random_letters_from(answer))
-        attempts = len(answer) + 3  # Allow a few extra attempts
+        #Hide letters based on word length rules
+        hidden_indices = select_random_letters_from(answer)  # returns list of indices to hide
+        revealed_indices = set(range(len(answer))) - set(hidden_indices)        
+        attempts = len(hidden_indices) + 2        
+        original_attempts = attempts
 
         while attempts > 0:
             if show_answer(answer, revealed_indices):
@@ -94,9 +162,10 @@ def play_level(questions, difficulty):
                 break
             
             user_input = get_user_input()
-            if len(user_input) != 1:
-                print("Please enter a single letter.")
-                continue
+
+            if len(user_input) != 1 or not user_input.isalpha():
+                    print("Invalid input! Please enter a single letter (A-Z).")
+                    continue
 
             if user_input in answer:
                 # Reveal all instances of the guessed letter
@@ -105,6 +174,9 @@ def play_level(questions, difficulty):
             else:
                 print(f"'{user_input}' is not in the word.")
                 attempts -= 1
+                mistakes_made = (original_attempts - attempts)
+                stage_index = min(len(HANGMAN_PICS) - 1, mistakes_made * (len(HANGMAN_PICS) - 1) // original_attempts)
+                print(HANGMAN_PICS[stage_index])
                 print(f"Remaining attempts: {attempts}")
         
         if attempts == 0:
